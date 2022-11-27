@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<title>Weather</title>
+	<link rel="stylesheet" href="css/style.css">
+	<meta http http-equiv="content-type" content="text/html;charset=UTF-8"/>
+</head>
+
+<body>
+	<div class="wrapper">
+		<div class="weather">
+			<div class="container">
+				<div class="weather__rows">
+					<form class="weather__search" action="">
+						<input type="text" class="search__input"value="" placeholder="Actobe">
+						<input type="submit" class="search__btn" value="">
+					</form>
+					<div class="weather__coloumns">
+						<div class="weather__tabs">
+							<div class="tabs__view">
+								<!-- @import 'now.html' -->
+								<!-- @import 'details.html' -->
+								<!-- @import 'forecast.html' -->
+							</div>
+							<div class="tabs__list">
+								<div class="tab__now tab">Now</div>
+								<div class="tab__details tab">Details</div>
+								<div class="tab__forecast tab">Forecast</div>
+							</div>
+						</div>
+						<div class="weather__locations">
+							<div class="locations__title">
+								<p>Added Locations:</p>
+							</div>
+							<div class="locations__list">
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script type="module" src="/js/main.js"></script>
+	<script type="module" src="/js/switchingTabs.js"></script>
+</body>
+
+</html>

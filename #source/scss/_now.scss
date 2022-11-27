@@ -1,0 +1,31 @@
+.weather__now {
+	display: flex;
+	flex-direction: column;
+	height: 345px;
+}
+.now__temperature {
+	font-size: 70px;
+	line-height: 82px;
+}
+.now__icon {
+	flex: 1 1 auto;
+	display: flex;
+	justify-content: center;
+}
+.now__bottom {
+	display: flex;
+	justify-content: space-between;
+}
+.now__favorites {
+	width: 25px;
+	height: 25px;
+	background: white;
+}
+.now__favorites:hover .icon__hearth {
+	stroke: red;
+}
+
+.now__favorites-active .icon__hearth {
+	stroke: red;
+	fill: red;
+}
